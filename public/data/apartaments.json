@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Residencia Altos del MiraValles",
+    "location": "Escazú, San José",
+    "price": 1850,
+    "image": "/images/apt-01.jpg",
+    "description": "Apartamento de tres habitaciones con vista al valle, acabados en madera natural y cocina abierta con isla de mármol.",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "area": 145,
+    "amenities": ["Piscina", "Gimnasio", "Parqueo doble", "Seguridad 24/7"]
+  },
+  {
+    "id": "2",
+    "name": "Torre Mirador de la Sabana",
+    "location": "Sabana, San José",
+    "price": 1250,
+    "image": "/images/apt-02.jpg",
+    "description": "Dos habitaciones con terraza privada, pisos de porcelanato y acceso directo al parque metropolitano.",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "area": 98,
+    "amenities": ["Terraza", "Coworking", "Ascensor", "Pet friendly"]
+  }
+]

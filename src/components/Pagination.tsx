@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 import "../styles/Pagination.css"
 
+=======
+>>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
 interface PaginationProps {
   page: number
   totalPages: number

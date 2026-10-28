@@ -1,7 +1,7 @@
 .site-header {
   background-color: var(--color-surface);
   border-bottom: 1px solid var(--color-border);
-  height: 96px; /* Header más grande y espacioso */
+  height: 96px;
   position: sticky;
   top: 0;
   z-index: 100;

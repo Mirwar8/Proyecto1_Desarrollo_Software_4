@@ -7,6 +7,7 @@ import Favoritos from './pages/Favoritos'
 import Contacto from './pages/Contacto'
 import FavoriteProvider from './context/FavoriteProvider'
 import NotFound from './pages/NotFound'
+<<<<<<< HEAD
 import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
@@ -15,6 +16,12 @@ export default function App() {
     <FavoriteProvider>
       <ScrollToTop />
       
+=======
+
+export default function App() {
+  return (
+    <FavoriteProvider>
+>>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Inicio />} />

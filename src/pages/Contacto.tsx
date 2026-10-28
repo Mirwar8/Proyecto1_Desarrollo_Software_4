@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState, useEffect, type FormEvent } from "react";
 import { useSearchParams } from "react-router-dom";
 import { useApartaments } from "../hooks/useApartaments";
@@ -192,4 +193,8 @@ export default function Contacto() {
       </div>
     </section>
   );
+=======
+export default function Inicio() {
+  return <section><h1>Inicio</h1></section>
+>>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
 }

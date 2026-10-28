@@ -186,8 +186,8 @@
     "price": 1300,
     "image": "/images/apartamento-16.jpg",
     "description": "Apartamento moderno ubicado en el este de la ciudad, con diseño ecoamigable y hermosas vistas hacia las montañas.",
-    "bedrooms": 2,
-    "bathrooms": 2,
+    "bedrooms": 4,
+    "bathrooms": 3,
     "area": 85,
     "amenities": ["Zonas verdes", "Pet park", "Gimnasio", "Seguridad 24/7"]
   },

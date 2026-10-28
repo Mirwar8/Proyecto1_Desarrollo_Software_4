@@ -2,6 +2,7 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { SITE } from "../config/site";
 import { useFavorites } from "../hooks/useFavorites";
+import '../styles/Header.css'
 
 const LINKS = [
   { to: "/", label: "Inicio" },
@@ -13,11 +14,16 @@ const LINKS = [
 export default function Header() {
   const [open, setOpen] = useState(false);
   const { favorites } = useFavorites();
+
   return (
     <header className="site-header">
       <div className="site-header__inner">
         <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
-          {SITE.name}
+        <img 
+            src={`${import.meta.env.BASE_URL}logo.svg`} 
+            alt="Luxury Chantes Logo"
+            className="brand__logo"
+          />
         </NavLink>
 
         <button

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { Link, useParams } from 'react-router-dom'
 import { useApartaments } from '../hooks/useApartaments'
 import '../styles/ApartmentDetail.css'
@@ -87,8 +86,4 @@ export default function Detalle() {
       </div>
     </div>
   )
-=======
-export default function Inicio() {
-  return <section><h1>Inicio</h1></section>
->>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
 }

@@ -1,9 +1,6 @@
 import { Link } from 'react-router-dom'
 import type { Apartament } from '../types/apartaments'
-<<<<<<< HEAD
 import "../styles/ApartmentCard.css"
-=======
->>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
 
 interface ApartamentCardProps {
   apartament: Apartament

@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 import "../styles/StatusMessage.css"
 
-=======
->>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
 interface StatusMessageProps {
   variant: 'loading' | 'error' | 'empty'
   message?: string

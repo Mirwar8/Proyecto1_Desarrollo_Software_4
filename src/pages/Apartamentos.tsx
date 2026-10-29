@@ -44,7 +44,6 @@ export default function Apartamentos() {
 
   return (
     <section className='apartamentos-page'>
-      <h1>Apartamentos</h1>
       <p className="page__subtitle">Explore nuestro catálogo exclusivo de propiedades de lujo.</p>
 
       <div className="filters-container" style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', margin: '1.5rem 0' }}>

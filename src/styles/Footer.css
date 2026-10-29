@@ -1,0 +1,25 @@
+.site-footer {
+  background-color: var(--color-surface, #ffffff);
+  color: var(--color-muted, #6b6459);
+  border-top: 1px solid var(--color-border, #e2ddd4);
+  padding: var(--spacing-6, 2rem) var(--spacing-5, 1.5rem);
+  text-align: center;
+  font-family: var(--font-body, sans-serif);
+  font-size: var(--text-sm, 0.875rem);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-2, 0.5rem);
+  margin-top: auto;
+}
+
+.site-footer p {
+  margin: 0;
+  line-height: var(--leading-normal, 1.55);
+}
+
+.site-footer p:first-child {
+  font-family: var(--font-display, Georgia, serif);
+  font-size: var(--text-base, 1rem);
+  font-weight: 600;
+  color: var(--color-ink, #1b1917);
+}

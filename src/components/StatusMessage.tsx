@@ -1,3 +1,5 @@
+import "../styles/StatusMessage.css"
+
 interface StatusMessageProps {
   variant: 'loading' | 'error' | 'empty'
   message?: string

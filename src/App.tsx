@@ -7,10 +7,14 @@ import Favoritos from './pages/Favoritos'
 import Contacto from './pages/Contacto'
 import FavoriteProvider from './context/FavoriteProvider'
 import NotFound from './pages/NotFound'
+import ScrollToTop from './components/ScrollToTop'
 
 export default function App() {
   return (
+
     <FavoriteProvider>
+      <ScrollToTop />
+      
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Inicio />} />

@@ -2,6 +2,10 @@ import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { SITE } from "../config/site";
 import { useFavorites } from "../hooks/useFavorites";
+<<<<<<< HEAD
+import '../styles/Header.css'
+=======
+>>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
 
 const LINKS = [
   { to: "/", label: "Inicio" },
@@ -13,11 +17,23 @@ const LINKS = [
 export default function Header() {
   const [open, setOpen] = useState(false);
   const { favorites } = useFavorites();
+<<<<<<< HEAD
+
+=======
+>>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
   return (
     <header className="site-header">
       <div className="site-header__inner">
         <NavLink to="/" className="brand" onClick={() => setOpen(false)}>
+<<<<<<< HEAD
+        <img 
+            src={`${import.meta.env.BASE_URL}logo.svg`} 
+            alt="Luxury Chantes Logo"
+            className="brand__logo"
+          />
+=======
           {SITE.name}
+>>>>>>> 6cc370bfd55b8390d46d569e33ef81a3f3a62f42
         </NavLink>
 
         <button

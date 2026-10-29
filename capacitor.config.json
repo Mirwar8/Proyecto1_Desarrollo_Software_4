@@ -1,0 +1,8 @@
+{
+  "appId": "com.luxurychantes.app",
+  "appName": "Luxury Chantes",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  }
+}

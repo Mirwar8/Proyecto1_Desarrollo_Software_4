@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import { SITE } from "../config/site";
 import { useFavorites } from "../hooks/useFavorites";
 import '../styles/Header.css'
 

@@ -1,75 +1,42 @@
-# React + TypeScript + Vite
+# Luxury Chantes — Catálogo de Apartamentos de Lujo
+Proyecto desarrollado para el curso **Desarrollo de Software IV** (II Ciclo 2026). Consiste en una aplicación web interactiva en React y TypeScript para la exploración de un catálogo de propiedades exclusivas en Costa Rica.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Autores
+SEBASTIAN VILLEGAS ARAYA
+ARWY ANTONIO ZAMORA SEGURA
 
-Currently, two official plugins are available:
+# Características Principales
+- **Catálogo y Fetch:** Carga de al menos 20 propiedades desde una fuente externa con manejo de estados (carga, error y lista vacía) y paginación.
+- **Filtros Avanzados y Búsqueda:** Filtrado dinámico por nombre, ubicación, precio máximo y cantidad de habitaciones mediante Hooks personalizados.
+- **Sistema de Favoritos:** Gestión de propiedades favoritas utilizando `Context API` y persistencia con `localStorage`.
+- **Rutas y Navegación:** Navegación robusta con `React Router`, menú responsivo, vistas de detalle y manejo de ruta 404.
+- **Formulario de Contacto:** Formulario controlado con validaciones y campos prellenados desde el detalle de la propiedad.
+- **Diseño Responsivo:** Estilos CSS propios adaptados para dispositivos móviles, tabletas y computadoras, asegurando una correcta jerarquía visual y accesibilidad.
+- **Versión Móvil (Capacitor):** Configuración e integración nativa para Android (`app-debug.apk`).
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Tecnologías Utilizadas
+- **React** con **TypeScript**
+- **Vite** (Build tool)
+- **React Router DOM**
+- **Capacitor** (para despliegue en Android)
+- **CSS Modules / Estilos personalizados**
 
-## React Compiler
+# Instalación y Ejecución Local
+Sigue estos pasos para clonar y ejecutar el proyecto en tu máquina:
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+  1. **Clonar el repositorio:**
+      git clone https://github.com/Mirwar8/Proyecto1_Desarrollo_Software_4.git
 
-## Expanding the ESLint configuration
+  2. **Instalar las dependencias:**
+      npm install
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+  3. **Ejecutar en modo desarrollador**
+      npm run dev
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+  4. **Compilar para producción**
+      npm run build
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# Despligue y Android
+  **URL en Producción (Vercel):** https://luxurychantes.vercel.app/
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+  **Aplicación Móvil:** El proyecto incluye la plataforma de Capacitor configurada para Android, con su respectivo archivo ejecutable de prueba (app-debug.apk).
